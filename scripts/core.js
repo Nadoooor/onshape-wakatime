@@ -31,7 +31,7 @@ class WakaCore {
             id: uuidv4(),
             language: "Onshape",
             plugin: "onshape-wakatime-plugin_" + getUserAgent(),
-            project: this.getProjectName() ?? '<<LAST_PROJECT>>',
+            project: this.getProjectName() ?? 'SnakeBoard',
             time: this.getCurrentTime(),
             type: url,
         };
